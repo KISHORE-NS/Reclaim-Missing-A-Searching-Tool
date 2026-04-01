@@ -1,0 +1,118 @@
+/* Background same as index */
+body.hello{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color:white;
+}
+
+/* Navbar */
+.lost_nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(5px);
+}
+
+.lost_nav a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.lost_nav a:hover{
+    color:#00adb5;
+}
+
+/* Heading */
+h2{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+/* Form Container */
+.lost{
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:12px;
+    width:400px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+/* ===== MODERN FORM LAYOUT ===== */
+
+/* Center Container */
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:40px;
+}
+
+/* Form Box */
+.form-box{
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:12px;
+    width:400px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Form Group */
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+}
+
+/* Labels */
+.form-group label{
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+/* Inputs */
+.form-group input,
+.form-group textarea{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    outline:none;
+    font-size:14px;
+}
+
+/* Textarea */
+.form-group textarea{
+    height:120px;
+    resize:none;
+}
+
+/* Focus */
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color:#ef4444;
+    box-shadow:0 0 5px rgba(239,68,68,0.3);
+}
+
+/* Button */
+.sbm{
+    width:100%;
+    margin-top:10px;
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.sbm:hover{
+    background:#dc2626;
+}

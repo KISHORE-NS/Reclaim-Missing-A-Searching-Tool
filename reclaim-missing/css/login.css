@@ -1,0 +1,120 @@
+/* Page Background */
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Login Box */
+.login-box{
+    background:white;
+    padding:45px;
+    width:380px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+/* Title */
+.login-box h2{
+    margin-bottom:20px;
+    color:#1a1a2e;
+}
+
+/* Inputs */
+.login-box input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+    outline:none;
+    font-size:14px;
+    transition:0.3s;
+}
+
+/* Input Focus Effect */
+.login-box input:focus{
+    border-color:#00adb5;
+    box-shadow:0 0 5px rgba(0,173,181,0.3);
+}
+
+/* Password Box */
+.password-box{
+    position: relative;
+}
+
+/* Eye Icon */
+.toggle{
+    position:absolute;
+    right:12px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    font-size:18px;
+    color:#555;
+}
+
+/* Button */
+.login-box button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:6px;
+    background:#00adb5;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-box button:hover{
+    background:#01949a;
+}
+
+/* Links */
+.login-box p{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.login-box a{
+    color:#00adb5;
+    text-decoration:none;
+}
+
+
+/* Back Button - Fixed Corner */
+.back-btn{
+    position: fixed;   /* KEY CHANGE */
+    top: 20px;
+    left: 20px;
+    background: rgba(255,255,255,0.15);
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.back-btn:hover{
+    background: #00adb5;
+    color: white;
+}
+/* 🔙 Back Button */
+.back-btn{
+    position:absolute;
+    top:20px;
+    left:20px;
+    font-size:22px;
+    color:white;
+    text-decoration:none;
+}

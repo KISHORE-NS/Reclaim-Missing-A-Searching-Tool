@@ -1,0 +1,97 @@
+/* Background */
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color:white;
+}
+
+/* NAVBAR */
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(5px);
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.links a{
+    margin-left:20px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.links a:hover{
+    color:#facc15;
+}
+
+/* TITLE */
+.title{
+    text-align:center;
+    margin:25px 0;
+}
+
+/* CONTAINER */
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+}
+
+/* CARD */
+.card{
+    background:white;
+    color:black;
+    width:500px;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* ITEMS */
+.item{
+    padding:10px;
+    border-radius:8px;
+}
+
+/* Lost (Red) */
+.lost{
+    border-left:5px solid #ef4444;
+}
+
+/* Found (Green) */
+.found{
+    border-left:5px solid #22c55e;
+}
+
+/* IMAGE */
+.item img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+/* MATCH TEXT */
+.match{
+    text-align:center;
+    color:#facc15;
+    font-weight:bold;
+}
